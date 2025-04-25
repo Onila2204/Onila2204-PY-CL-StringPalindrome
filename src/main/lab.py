@@ -9,5 +9,4 @@ def is_palindrome(s):
     # Convert the string to lowercase and remove non-alphanumeric characters
     s = ''.join(char.lower() for char in s if char.isalnum())
     # Compare the string with its reverse
-    rev=s[::-1]
     return s==s[::-1]
